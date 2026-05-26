@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>
-  <img src="https://raw.githubusercontent.com/portbay-app/portbay/main/src/lib/assets/portbay-logo.png" alt="" height="56" valign="middle" />
+  <img src="https://raw.githubusercontent.com/portbay-app/portbay/main/src/lib/assets/portbay-logo.png" alt="" height="112" valign="middle" />
   &nbsp;PortBay
 </h1>
 
@@ -12,7 +12,7 @@ reverse proxy, live logs. No containers, no daemon zoo, no hand-edited `/etc/hos
 
 [![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-1f6feb.svg)](https://github.com/portbay-app/portbay/blob/main/LICENSE)
 [![Platform: macOS](https://img.shields.io/badge/macOS-Apple%20Silicon-black.svg?logo=apple&logoColor=white)](https://github.com/portbay-app/portbay)
-![Status: pre-1.0](https://img.shields.io/badge/status-pre--1.0-orange.svg)
+![Status: released](https://img.shields.io/badge/status-released-1f6feb.svg)
 [![Stars](https://img.shields.io/github/stars/portbay-app/portbay?style=flat&color=1f6feb)](https://github.com/portbay-app/portbay/stargazers)
 
 **[Get PortBay](https://github.com/portbay-app/portbay)** ·
