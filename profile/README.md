@@ -1,6 +1,9 @@
 <div align="center">
 
-# PortBay
+<h1>
+  <img src="https://raw.githubusercontent.com/portbay-app/portbay/main/src/lib/assets/portbay-logo.png" alt="" height="56" valign="middle" />
+  &nbsp;PortBay
+</h1>
 
 ### Run every local project like a tiny PaaS — not an unmanaged server.
 
@@ -13,7 +16,7 @@ reverse proxy, live logs. No containers, no daemon zoo, no hand-edited `/etc/hos
 [![Stars](https://img.shields.io/github/stars/portbay-app/portbay?style=flat&color=1f6feb)](https://github.com/portbay-app/portbay/stargazers)
 
 **[Get PortBay](https://github.com/portbay-app/portbay)** ·
-[Documentation](https://portbay-app.github.io/portbay/) ·
+[Documentation](https://docs.portbay.app) ·
 [Discussions](https://github.com/portbay-app/portbay/discussions) ·
 [Contribute](https://github.com/portbay-app/portbay/blob/main/CONTRIBUTING.md) ·
 [Security](https://github.com/portbay-app/portbay/blob/main/SECURITY.md)
@@ -22,8 +25,13 @@ reverse proxy, live logs. No containers, no daemon zoo, no hand-edited `/etc/hos
 
 </div>
 
-<!-- TODO: add a hero screenshot or short GIF of the dashboard here — highest-impact
-     visual upgrade once a capture exists. Don't ship a broken image link before then. -->
+<div align="center">
+
+<a href="https://try.portbay.app"><img src="https://docs.portbay.app/screenshots/projects-dark.png" alt="PortBay managing local projects" width="840" /></a>
+
+<sub><b><a href="https://try.portbay.app">▶ Try it in your browser</a></b> — the real interface with sample projects, no install required.</sub>
+
+</div>
 
 ---
 
