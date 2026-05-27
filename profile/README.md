@@ -79,7 +79,7 @@ you couldn't build yourself.
 
 ## Editions
 
-| | **PortBay Community** | **PortBay Cloud / Pro** |
+| | **PortBay Community** | **PortBay Pro** |
 |---|---|---|
 | What | The local-first app — everything above | Optional hosted & team features |
 | Where | open source, this org | developed separately |
