@@ -48,15 +48,20 @@ and everything stops. Restart one project and the others don't notice.
 
 ## What you can do
 
+- 📂 **Point it at a folder — it already knows the project.** PortBay reads the framework (Next.js, Vite, Node, PHP, Laravel) and fills in the start command, port, hostname, and HTTPS. Nothing to configure before the first run.
 - ▶️ **One-click Play / Stop per project** — Next.js, Vite, plain Node, PHP, Laravel.
 - 🛑 **A universal Stop-All** that works even after a crash.
 - 🔒 **Real HTTPS** like `https://myproject.test`, issued and trusted locally.
 - 🌐 **Wildcard `.test` routing** via a bundled DNS resolver — zero hosts-file edits.
 - 🧭 **Reverse-proxy routing** managed for you through Caddy's admin API.
+- 🧪 **A sandboxed runner** — run an untrusted or freshly-cloned project inside a macOS sandbox, inspect it, then promote it to a normal local run.
+- 🤖 **An MCP server** — drive your whole local stack from Claude Code, Cursor, or Zed; PortBay's projects and actions become agent tools.
 - 📜 **Live logs, status, and metrics** per project, plus a macOS menu-bar mode.
+- 📦 **Already on Herd, ServBay, or MAMP?** Import your existing sites in one step.
 
 Native and small by design — target under ~80 MB idle RAM and a sub-30 MB
-installer. The GUI is a thin client over a Rust core with full CLI parity.
+installer. The GUI — and your AI agent — are thin clients over a Rust core with
+full CLI parity.
 
 ## How it fits
 
