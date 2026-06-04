@@ -10,6 +10,9 @@
 One Play button per project. Real HTTPS `.test` domains, managed DNS and
 reverse proxy, live logs. No containers, no daemon zoo, no hand-edited `/etc/hosts`.
 
+And a task board your AI agents work: write a card, move it to *To Do*, and
+Claude Code, Codex, Cursor, or Gemini does the work in your repo.
+
 [![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-1f6feb.svg)](https://github.com/portbay-app/portbay/blob/main/LICENSE)
 [![Platform: macOS](https://img.shields.io/badge/macOS-Apple%20Silicon-black.svg?logo=apple&logoColor=white)](https://github.com/portbay-app/portbay)
 ![Status: released](https://img.shields.io/badge/status-released-1f6feb.svg)
@@ -55,13 +58,32 @@ and everything stops. Restart one project and the others don't notice.
 - 🌐 **Wildcard `.test` routing** via a bundled DNS resolver — zero hosts-file edits.
 - 🧭 **Reverse-proxy routing** managed for you through Caddy's admin API.
 - 🧪 **A sandboxed runner** — run an untrusted or freshly-cloned project inside a macOS sandbox, inspect it, then promote it to a normal local run.
-- 🤖 **An MCP server** — drive your whole local stack from Claude Code, Cursor, or Zed; PortBay's projects and actions become agent tools.
+- 🤖 **An MCP server** — drive your whole local stack from Claude Code, Cursor, or Zed; PortBay's projects and actions become 69 agent tools.
+- 🗂️ **A task board your AI agents work** — every project gets a Kanban board; cards are Markdown in your repo. Move one to *To Do* and the agent you assigned does the work and leaves a handoff for the next run.
+- 🖥️ **A built-in SSH workspace** — saved hosts, an interactive terminal, an SFTP file browser with inline editing, and port-forward tunnels for the servers your projects ship to.
 - 📜 **Live logs, status, and metrics** per project, plus a macOS menu-bar mode.
 - 📦 **Already on Herd, ServBay, or MAMP?** Import your existing sites in one step.
 
 Native and small by design — target under ~80 MB idle RAM and a sub-30 MB
 installer. The GUI — and your AI agent — are thin clients over a Rust core with
 full CLI parity.
+
+## Your agents work the board
+
+Working with a coding agent is still a part-time job: explain the task, watch
+it run, repeat — and the context dies with the session. In PortBay you write a
+card instead. Move it to **To Do** and the agent you assigned picks it up, does
+the work on your machine, and appends a handoff brief the next run reads first.
+PortBay launches the coding agents you already have installed — Claude Code,
+Codex, Cursor, Gemini, Aider, Copilot, and more — it never runs a model of its own.
+
+<div align="center">
+
+<img src="https://docs.portbay.app/screenshots/tasks-dark.png" alt="PortBay's per-project task board with AI agents working the cards" width="840" />
+
+<sub>One board per project. Cards are Markdown files in the repo — they version with your code.</sub>
+
+</div>
 
 ## How it fits
 
@@ -71,11 +93,15 @@ full CLI parity.
 | Container-free | ✅ | ✅ | ✅ | ❌ |
 | Local HTTPS + `.test` | ✅ | ✅ | partial | manual |
 | Multi-runtime (Node / PHP / …) | ✅ | PHP-first | PHP-first | ✅ |
+| MCP server for agents | ✅ 69 tools | ✅ | ❌ | ✅ |
+| AI agent task board | ✅ | ❌ | ❌ | ❌ |
+| Agent handoff memory between runs | ✅ | ❌ | ❌ | ❌ |
+| Built-in SSH / SFTP / tunnels | ✅ | ❌ | ❌ | ❌ |
 | Idle footprint | small (native) | small | medium | large |
 
 If you live in PHP on macOS, Herd is excellent. PortBay's bet is one open,
-lightweight tool for mixed Node/PHP/static stacks — no container layer, nothing
-you couldn't build yourself.
+lightweight tool for mixed Node/PHP/static stacks — where the agent doesn't
+just inspect your environment, it picks up the next card and works it.
 
 ## Editions
 
