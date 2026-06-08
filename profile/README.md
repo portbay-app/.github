@@ -60,6 +60,8 @@ and everything stops. Restart one project and the others don't notice.
 - 🧪 **A sandboxed runner** — run an untrusted or freshly-cloned project inside a macOS sandbox, inspect it, then promote it to a normal local run.
 - 🤖 **An MCP server** — drive your whole local stack from Claude Code, Cursor, or Zed; PortBay's projects and actions become 69 agent tools.
 - 🗂️ **A task board your AI agents work** — every project gets a Kanban board; cards are Markdown in your repo. Move one to *To Do* and the agent you assigned does the work and leaves a handoff for the next run.
+- 🧠 **A managed local AI server** — PortBay installs and supervises [Ollama](https://ollama.com), pulls models from the live catalog, and points dictation, agents, and your own tools at one local endpoint. Models and prompts never leave your Mac.
+- 🎙️ **Speech-to-Text** — hold Fn 🌐 and talk: an on-device speech model plus a local AI rewrite turn spoken thoughts into clean cards, commits, and prompts — in **any app on your Mac**, not just PortBay. ⌘Z always restores your exact words.
 - 🖥️ **A built-in SSH workspace** — saved hosts, an interactive terminal, an SFTP file browser with inline editing, and port-forward tunnels for the servers your projects ship to.
 - 📜 **Live logs, status, and metrics** per project, plus a macOS menu-bar mode.
 - 📦 **Already on Herd, ServBay, or MAMP?** Import your existing sites in one step.
@@ -96,6 +98,8 @@ Codex, Cursor, Gemini, Aider, Copilot, and more — it never runs a model of its
 | MCP server for agents | ✅ 69 tools | ✅ | ❌ | ✅ |
 | AI agent task board | ✅ | ❌ | ❌ | ❌ |
 | Agent handoff memory between runs | ✅ | ❌ | ❌ | ❌ |
+| Managed local LLM server (Ollama) | ✅ | ❌ | ❌ | manual |
+| On-device Speech-to-Text + AI cleanup | ✅ | ❌ | ❌ | ❌ |
 | Built-in SSH / SFTP / tunnels | ✅ | ❌ | ❌ | ❌ |
 | Idle footprint | small (native) | small | medium | large |
 
